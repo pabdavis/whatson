@@ -1,6 +1,6 @@
 whatson bot
 
-bot runs every 15 minutes from 4am to 11pm
+bot runs every 15 minutes from 4am to 10:45pm
 
 checks a specific twitter list for users
 

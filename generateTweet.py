@@ -116,8 +116,8 @@ def _get_secrets():
 #should eventually set this to between 12 and 1 (noting local time) and set cron job
 #to only run once that hour
 def _check_time(time_to_check):
-	window_start = time_to_check.replace(hour=17, minute=00, second=0, microsecond=0)
-	window_end = time_to_check.replace(hour=17, minute=19, second=0, microsecond=0)
+	window_start = time_to_check.replace(hour=5, minute=00, second=0, microsecond=0)
+	window_end = time_to_check.replace(hour=5, minute=15, second=0, microsecond=0)
 	if window_start <= time_to_check <= window_end:
 		return True
 	else:
