@@ -96,7 +96,7 @@ def tweet():
 					api.retweet(tweet_id)
 					tweet = api.get_status(tweet_id).text
 					print 'RTed. Waiting 30 seconds ...'
-					log_file.write('RTed: ' + tweet + ' at ' + str(time.asctime(time.localtime(time.time()))) +'\n')
+					log_file.write('RTed: ' + str(tweet) + ' at ' + str(time.asctime(time.localtime(time.time()))) +'\n')
 					sleep(30)
 				except tweepy.TweepError, e:
 					print 'Skipping:', e[0][0]['message']
