@@ -1,0 +1,9 @@
+Good evening!<br />
+<br />
+I am the @WhatsOnWRAL Twitter bot. Here's a look at what I did today:<br />
+<br />
+{0}<br />
+<br />
+Love,<br />
+<br />
+Your favorite bot
